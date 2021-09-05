@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:mysql://localhost:5432/inventory-service
+    url: jdbc:postgres://localhost:5432/inventory-service
     initialization-mode: always
   jpa:
     show-sql: true
